@@ -3,7 +3,7 @@ import { FormControl, IconButton, InputAdornment, InputLabel, OutlinedInput, Tex
 import Image from "next/image";
 import { AiFillEye, AiFillEyeInvisible } from "react-icons/ai";
 
-export default function Home() {
+export default function Login() {
   const [showPassword, setShowPassword] = React.useState(false);
   const [email, setEmail] = React.useState("");
   const [password, setPassword] = React.useState("");
