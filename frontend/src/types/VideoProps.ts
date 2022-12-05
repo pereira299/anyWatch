@@ -8,5 +8,6 @@ export default interface VideoProps {
     views: number;
     image: string;
     user: UserProps;
+    black?: boolean;
     className?: string;
 }

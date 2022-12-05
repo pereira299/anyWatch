@@ -21,8 +21,8 @@ export default function Video(props: VideoProps) {
                     className="rounded-full mr-3"
                 />
                 <div>
-                    <p className="text-md font-bold text-white">{props.title}</p>
-                    <p className="text-gray-400">{Intl.NumberFormat("pt-BR", {
+                    <p className={`text-md font-bold ${props.black ? "text-black" : "text-white"}`}>{props.title}</p>
+                    <p className={`${props.black ? "text-gray-600" : "text-gray-400"}`}>{Intl.NumberFormat("pt-BR", {
                         style: "decimal",
                         notation: "compact",
                         compactDisplay: "short"
